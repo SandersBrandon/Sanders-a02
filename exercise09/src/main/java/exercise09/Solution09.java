@@ -6,6 +6,15 @@ package exercise09;
 
 import java.util.Scanner;
 
+/* Pseudocode
+*Print statement and scan user input
+*Convert user input into numerical data
+* Calculate how many gallons of paint are needed
+* Check if there is more square footage needed to have paint
+* Round up to the next largest integer if needed
+* Print statement with correct amount of gallons needed
+*/
+
 public class Solution09 {
     public static final Scanner in = new Scanner(System.in);
 
