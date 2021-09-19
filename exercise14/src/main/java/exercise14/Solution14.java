@@ -12,7 +12,7 @@ import java.util.Scanner;
 * Create if statement (no else) to check is state string is WI
 * If yes add tax and make output with required information
 * If no, print the total amount
-* 
+*
 */
 public class Solution14 {
     private static final Scanner in = new Scanner(System.in);
@@ -30,9 +30,12 @@ public class Solution14 {
 
         if ( stateAnswer.contains("WI")){
             double orderTotal = taxAmount + orderPrice;
-            System.out.println( "The subtotal is $" + String.format("%.2f",orderPrice) +"\r\n"+"The tax is $" + taxAmount + "\r\n" + "The total is $" + String.format("%.2f", orderTotal) );
+            System.out.println( "The subtotal is $" + String.format("%.2f",orderPrice) +"\r\n"+"The tax is $" + String.format("%.2f",taxAmount) + "\r\n" + "The total is $" + String.format("%.2f", orderTotal) );
 
         }
-        System.out.println("The total is $" + String.format(orderAmount));
+
+        if( !stateAnswer.contains("WI")){
+            System.out.println("The total is $" + String.format(orderAmount));
+        }
     }
 }
