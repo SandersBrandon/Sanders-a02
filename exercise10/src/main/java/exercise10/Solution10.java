@@ -7,6 +7,14 @@ package exercise10;
 
 import java.util.Scanner;
 
+/* Psuedocode
+* Print statements and getting user input for price and quantity of items
+* Use variable for tax rate
+*Parse strings to convert into numerical values
+*Calculate subtotal, tax amount, and total cost of all items
+* Print out formatting answers into 2 decimal places like real transaction receipts
+*/
+
 public class Solution10 {
     private static final Scanner in = new Scanner(System.in);
 
