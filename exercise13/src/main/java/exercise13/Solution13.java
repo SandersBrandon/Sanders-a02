@@ -4,6 +4,15 @@
  */
 package exercise13;
 
+/* Pseudocode
+* Print statements and getting user input
+* Convert user input into numerical data
+* Divide rate of interest by 100 for actual number
+* Figure out how to add a power to a number
+* Make formula for total amount at end of the investment
+* Output statement with required information formatted and rounding to nearest cent
+*/
+
 import java.util.Scanner;
 import java.lang.Math;
 
