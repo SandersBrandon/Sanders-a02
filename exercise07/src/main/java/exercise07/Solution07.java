@@ -1,6 +1,21 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 2 Solution
+ *  Copyright 2021 Brandon Sanders
+ */
+
 package exercise07;
 
 import java.util.Scanner;
+/* Psuedo code
+* Ask user input for length in feet
+* Ask user input for width in feet
+* Print statement with the user input
+* Convert string into numbers for conversions
+* Calculate square feet
+* Make conversion variable for square meters
+* Calculate square meters
+* Print out square feet and square meter total
+*/
 
 public class Solution07 {
     private static final Scanner in = new Scanner(System.in);
