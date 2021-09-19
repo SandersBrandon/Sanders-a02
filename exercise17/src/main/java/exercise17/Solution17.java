@@ -6,6 +6,12 @@ package exercise17;
 
 import java.util.Scanner;
 
+/* Pseudocode
+* Ask user for input, taking out non-numeric values from the string
+* Turn strings into numerical variables if needed
+* Calculate BAC based on the user response
+* Compare BAC to legal threshold and give dynamic print statment depending on user's BAC calculated
+*/
 public class Solution17 {
     private static final Scanner in = new Scanner(System.in);
 
@@ -36,11 +42,12 @@ public class Solution17 {
 
         double menRatio = 0.73;
         double girlRatio = 0.66;
-        double bloodAC = (alcoholNum * 5.14 / weightNum * menRatio) - (.015 * hoursNum);
 
-        System.out.println("Your BAC is " +bloodAC);
 
         if (userMF == "1"){
+            double bloodAC = (alcoholNum * 5.14 / weightNum * menRatio) - (.015 * hoursNum);
+
+            System.out.println("Your BAC is " +bloodAC);
 
                                  if (bloodAC >= 0.08){
 
@@ -51,6 +58,10 @@ public class Solution17 {
 
                          }
         else {
+            double bloodAC = (alcoholNum * 5.14 / weightNum * girlRatio) - (.015 * hoursNum);
+
+            System.out.println("Your BAC is " +bloodAC);
+
                 if (bloodAC >= 0.08){
 
                 System.out.println("It is not legal for you to drive");
