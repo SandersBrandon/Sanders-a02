@@ -1,0 +1,13 @@
+
+M	java:S106"9Replace this use of System.out or System.err by a logger.(š¼ŠX
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ãş…øÿÿÿÿ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(¡Ş‰»úÿÿÿÿ
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(ßÚÛÊ
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(ßÚÛÊ
+N	java:S106:"9Replace this use of System.out or System.err by a logger.(¹ä÷
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(ï‘ñ
+c
+java:S1192'"MDefine a constant instead of duplicating this literal "The tax is $" 3 times.(ßÚÛÊ
+e
+java:S1192("ODefine a constant instead of duplicating this literal "The total is $" 4 times.(‰º‹™
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßš½ùÿÿÿÿ
