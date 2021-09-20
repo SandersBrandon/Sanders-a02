@@ -1,0 +1,10 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(–ø ¨
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÍüÏé
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Äòª»
+S	java:S106%"9Replace this use of System.out or System.err by a logger.(®ı›øÿÿÿÿ
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(†ÎÚ 
+S	java:S106."9Replace this use of System.out or System.err by a logger.(ùÖøıÿÿÿÿ
+r
+java:S1192%"WDefine a constant instead of duplicating this literal "The largest number is " 3 times.(®ı›øÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‰³ˆ
